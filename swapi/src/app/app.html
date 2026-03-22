@@ -10,14 +10,14 @@
       <p class="py-6">
         Here are some listings from the Star Wars movies.
       </p>
-      <button class="btn btn-primary">Query Data (This Button Does Nothing... Yet)</button>
+      <button class="btn btn-primary" (click)="loadData()">Query Data</button>
     </div>
   </div>
 </div>
 
-<app-ui-list [title]="listNames[0]"/>
-<app-ui-list [title]="listNames[1]"/>
-<app-ui-list [title]="listNames[2]"/>
+<app-ui-list [title]="listNames[0]" [myDataList]="films$ | async"/>
+<app-ui-list [title]="listNames[1]" [myDataList]="planets$ | async"/>
+<app-ui-list [title]="listNames[2]" [myDataList]="starships$ | async"/>
 
 <router-outlet />
 
