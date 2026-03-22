@@ -72,7 +72,12 @@
           "builder": "@angular/build:unit-test"
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://kraasch.github.io/demo_swapi/",
+            "name": "Alex Kraasch",
+            "email": "alex@kraasch.eu"
+          }
         }
       }
     }
