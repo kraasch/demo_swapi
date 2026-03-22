@@ -17,4 +17,5 @@ Other resources:
 Credits:
 
   - favicon: https://icons8.com/icon/UiSeIuWBdiKX/darth-vader
+  - picture of George Lucas: [commons.wikimedia.org](https://example.com/path%28with%29parens.jpg)
 
