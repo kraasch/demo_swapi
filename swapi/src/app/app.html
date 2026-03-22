@@ -15,9 +15,9 @@
   </div>
 </div>
 
-<app-ui-list [title]="listNames[0]" [myDataList]="films$ | async"/>
-<app-ui-list [title]="listNames[1]" [myDataList]="planets$ | async"/>
-<app-ui-list [title]="listNames[2]" [myDataList]="starships$ | async"/>
+<app-ui-list [fieldName]="fieldNames[0]" [title]="listNames[0]" [myDataList]="films$ | async"/>
+<app-ui-list [fieldName]="fieldNames[1]" [title]="listNames[1]" [myDataList]="planets$ | async"/>
+<app-ui-list [fieldName]="fieldNames[2]" [title]="listNames[2]" [myDataList]="starships$ | async"/>
 
 <router-outlet />
 

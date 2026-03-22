@@ -19,7 +19,7 @@ import { CommonModule } from '@angular/common';
           -- END OF COMMENT -->
           <div class="list-col-grow">
             <div>{{ myEntry.title }}</div>
-            <div class="text-xs uppercase font-semibold opacity-60">{{ myEntry.somedata }}</div>
+            <div class="text-xs uppercase font-semibold opacity-60">{{ fieldName }}: {{ myEntry.somedata }}</div>
           </div>
           <button class="btn btn-square btn-ghost">
             <svg class="size-[1.2em]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor"><path d="M6 3L20 12 6 21 6 3z"></path></g></svg>
@@ -34,5 +34,6 @@ import { CommonModule } from '@angular/common';
 
 export class UiList {
   @Input() title: string = "";
+  @Input() fieldName: string = "";
   @Input() myDataList: any[] | null | undefined;
 }
