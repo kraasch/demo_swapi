@@ -7,5 +7,5 @@ build:
 
 topages:
 	@#cd ./swapi/ && ng build --output-path docs
-	cd ./swapi/ && ng deploy --base-href=https://kraasch.github.io/demo_swapi
+	cd ./swapi/ && ng deploy --base-href=https://kraasch.github.io/demo_swapi/
 
