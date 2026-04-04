@@ -1,6 +1,14 @@
 
 # SW-API Access Example
 
+## Demo
+
+<p align="center">
+<img src="./demo/demo.png" width="500"/>
+</p>
+
+## About
+
 View [on github pages](https://kraasch.github.io/demo_swapi/).
 
 Swapi resources:
